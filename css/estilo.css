@@ -1,0 +1,44 @@
+body{
+    background-image: url("img/cafe.jpg");
+}
+
+div{width: 600px;}
+
+#rosa{
+    position: relative;
+    background: #F2F2F2;
+    color: #73503C;
+    top: 170px; left: 200px;
+    width: 400px;
+    z-index: 1;
+}
+
+div:nth-child(2){
+    background: #D9B596;
+    width: 600px;
+}
+
+li:nth-child(2){
+    background: #D9B596;
+}
+
+:nth-child(3){
+    background: #D9A679;
+}
+
+:nth-child(4){
+    background: #A66B49;
+}
+
+:nth-child(5){
+    background: #73503C;
+}
+
+li:nth-child(odd) {
+    background: rgb(74, 119, 216);
+  }
+ 
+  li:nth-child(even) {
+    background: rgb(112, 190, 142);
+  }
+
